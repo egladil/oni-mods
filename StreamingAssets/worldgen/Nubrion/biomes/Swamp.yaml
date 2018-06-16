@@ -12,11 +12,11 @@ TerrainBiomeLookupTable:
     overrides:
       diseaseOverride: SlimeLung
       diseaseAmountOverride: 1000000
-#  - content: ToxicSand
-#    bandSize: 0.2
-#    overrides:
-#      diseaseOverride: SlimeLung
-#      diseaseAmountOverride: 1000000
+  - content: ToxicSand
+    bandSize: 0.2
+    overrides:
+      diseaseOverride: SlimeLung
+      diseaseAmountOverride: 1000000
   - content: SlimeMold
     bandSize: 0.5
     overrides:

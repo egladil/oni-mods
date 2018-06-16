@@ -8,9 +8,7 @@ MaficRock
 Regolith
 Snow
 Steam
-Vacuum
 Void
 
 Lime
 RefinedCarbon
-ToxicSand

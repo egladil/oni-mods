@@ -6,7 +6,6 @@ worldsize:
   
 ZoneFiles:
 - name: subworlds/StartWorld
-- name: subworlds/TheVoid
 - name: Nubrion/subworlds/Metal
 - name: Nubrion/subworlds/Crystal
 - name: Nubrion/subworlds/SunnyGlade
@@ -17,6 +16,7 @@ ZoneFiles:
 - name: Nubrion/subworlds/FrozenHydrocarbon
 - name: Nubrion/subworlds/Molten
 - name: Nubrion/subworlds/Atmosphere
+- name: Nubrion/subworlds/Space
   
 DefineTagSet:
   FarAndDown:
@@ -78,8 +78,8 @@ UnknownCellsAllowedSubworlds:
 - tagcommand: ContainsOne
   tagset: NearOrAtSurface
   command: Replace
-  temperatureRanges:
-  - ExtremelyHot
+  subworldNames:
+  - Space
 
 - tagcommand: DistanceFrom
   tagset: NearOrAtDepths
@@ -120,5 +120,5 @@ UnknownCellsAllowedSubworlds:
 - tagcommand: ContainsOne
   tagset: NearOrAtDepths
   command: Replace
-  subworldNames:
-  - TheVoid
+  temperatureRanges:
+  - ExtremelyHot

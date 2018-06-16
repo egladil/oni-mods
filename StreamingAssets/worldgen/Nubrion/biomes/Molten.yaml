@@ -1,14 +1,8 @@
 TerrainBiomeLookupTable:
   Basic:
   - content: Obsidian
-    bandSize: 2
+    bandSize: 10
   - content: Tungsten
-    bandSize: 1
-  - content: MercuryGas
-    bandSize: 1
-    overrides:
-      massMultiplier: 5
-  - content: RockGas
     bandSize: 1
   - content: MoltenCopper
     bandSize: 2
@@ -31,6 +25,6 @@ TerrainBiomeLookupTable:
     overrides:
       massMultiplier: 10
   - content: Magma
-    bandSize: 50
+    bandSize: 5
     overrides:
-      massMultiplier: 40
+      massMultiplier: 10

@@ -4,4 +4,5 @@ set /p "ONI_PATH=Enter Oxygen Not Included installation dir [%ONI_PATH%]"
 
 set "TARGET=%ONI_PATH%\OxygenNotIncluded_Data\StreamingAssets"
 
-xcopy StreamingAssets "%TARGET%" /i /s /e /y
+xcopy StreamingAssets "%ONI_PATH%\OxygenNotIncluded_Data\StreamingAssets" /i /s /e /y
+type NUL >> "%ONI_PATH%\OxygenNotIncluded_Data\debug_enable.txt"

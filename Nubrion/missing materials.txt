@@ -1,0 +1,16 @@
+Chlorine
+Copper
+CrushedIce
+CrushedRock
+Gold
+LiquidCarbonDioxide
+MaficRock
+Regolith
+Snow
+Steam
+Vacuum
+Void
+
+Lime
+RefinedCarbon
+ToxicSand

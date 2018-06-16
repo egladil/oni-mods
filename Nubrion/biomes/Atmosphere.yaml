@@ -1,0 +1,6 @@
+TerrainBiomeLookupTable:
+  Basic:
+  - content: Helium
+    bandSize: 0.5
+  - content: Hydrogen
+    bandSize: 0.5

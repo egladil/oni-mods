@@ -1,0 +1,36 @@
+TerrainBiomeLookupTable:
+  Basic:
+  - content: Obsidian
+    bandSize: 2
+  - content: Tungsten
+    bandSize: 1
+  - content: MercuryGas
+    bandSize: 1
+    overrides:
+      massMultiplier: 5
+  - content: RockGas
+    bandSize: 1
+  - content: MoltenCopper
+    bandSize: 2
+    overrides:
+      massMultiplier: 5
+  - content: MoltenGold
+    bandSize: 2
+    overrides:
+      massMultiplier: 5
+  - content: MoltenIron
+    bandSize: 2
+    overrides:
+      massMultiplier: 5
+  - content: MoltenSteel
+    bandSize: 2
+    overrides:
+      massMultiplier: 5
+  - content: MoltenGlass
+    bandSize: 5
+    overrides:
+      massMultiplier: 10
+  - content: Magma
+    bandSize: 50
+    overrides:
+      massMultiplier: 40

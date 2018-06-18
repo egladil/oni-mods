@@ -17,7 +17,7 @@ zone:
     weight: 1
   tags:
   - IgnoreCaveOverride
-#  pointsOfInterest:
-#    geysers_a:
-#    - poi_swamp_geyser_steam
+  pointsOfInterest:
+    space_station:
+    - nubrion_poi_space_station
   zoneType: Space

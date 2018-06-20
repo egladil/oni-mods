@@ -16,7 +16,7 @@ zone:
   - name: Nubrion/biomes/SunnyGlade/Basic
     weight: 1
     tags:
-    - LightBug
+    - Pacu
     - BasicSingleHarvestPlant
     - BasicForagePlantPlanted
     - BasicFabricPlant
@@ -25,6 +25,7 @@ zone:
   - name: Nubrion/biomes/SunnyGlade/Basic
     weight: 2
     tags:
+    - LightBug
     - BasicSingleHarvestPlant
     - BasicForagePlantPlanted
     - BasicFabricPlant

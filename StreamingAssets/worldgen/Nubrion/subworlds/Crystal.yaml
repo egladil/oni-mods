@@ -17,9 +17,9 @@ zone:
     weight: 1
   tags:
   - IgnoreCaveOverride
-#  pointsOfInterest:
-#    geysers_a:
-#    - poi_swamp_geyser_steam
+  pointsOfInterest:
+    liquid_a:
+    - nubrion_poi_liquid_helium
   featureTemplates:
     nubrion_heatsink: 4
   zoneType: FrozenWastes

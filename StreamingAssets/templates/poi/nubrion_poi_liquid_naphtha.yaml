@@ -1,984 +1,482 @@
 name: nubrion_poi_liquid_naphtha
 info:
   size:
-    X: 15
-    Y: 15
-  area: 201
+    X: 10
+    Y: 10
+  area: 88
 cells:
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: -5
-  location_y: -5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -4
-  location_y: -5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -3
-  location_y: -5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: -2
-  location_y: -5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -1
-  location_y: -5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_y: -5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 1
-  location_y: -5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 2
-  location_y: -5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 3
-  location_y: -5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 4
-  location_y: -5
+  location_y: -4
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 5
-  location_y: -5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -5
-  location_y: -4
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -4
-  location_y: -4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -3
-  location_y: -4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -2
-  location_y: -4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: -1
   location_y: -4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_y: -4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 1
   location_y: -4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 2
   location_y: -4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 3
   location_y: -4
-- element: Creature
+- element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 4
-  location_y: -4
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 5
-  location_y: -4
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -5
-  location_y: -3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -4
-  location_y: -3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -3
-  location_y: -3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: -2
   location_y: -3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: -1
   location_y: -3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_y: -3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 1
   location_y: -3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 2
   location_y: -3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 3
   location_y: -3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: 4
-  location_y: -3
 - element: Creature
   mass: 525.919983
-  temperature: 370
-  location_x: 5
-  location_y: -3
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -5
-  location_y: -2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -4
-  location_y: -2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -3
-  location_y: -2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: -2
   location_y: -2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: -1
   location_y: -2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_y: -2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 1
   location_y: -2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 2
   location_y: -2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 3
   location_y: -2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: 4
-  location_y: -2
 - element: Creature
   mass: 525.919983
-  temperature: 370
-  location_x: 5
-  location_y: -2
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -5
-  location_y: -1
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -4
-  location_y: -1
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -3
-  location_y: -1
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+  temperature: 470
   location_x: -2
   location_y: -1
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: -1
   location_y: -1
 - element: Naphtha
   mass: 5000
-  temperature: 370
+  temperature: 470
   location_y: -1
 - element: Naphtha
   mass: 5000
-  temperature: 370
+  temperature: 470
   location_x: 1
   location_y: -1
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 2
   location_y: -1
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 3
   location_y: -1
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: 4
-  location_y: -1
 - element: Creature
   mass: 525.919983
-  temperature: 370
-  location_x: 5
-  location_y: -1
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -5
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+  temperature: 470
   location_x: -2
 - element: Naphtha
-  mass: 5000
-  temperature: 370
+  mass: 10572.4346
+  temperature: 470
   location_x: -1
 - element: Naphtha
   mass: 5000
-  temperature: 370
+  temperature: 470
 - element: Naphtha
   mass: 5000
-  temperature: 370
+  temperature: 470
   location_x: 1
 - element: Naphtha
   mass: 5000
-  temperature: 370
+  temperature: 470
   location_x: 2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: 4
 - element: Creature
   mass: 525.919983
-  temperature: 370
-  location_x: 5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -5
-  location_y: 1
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -4
-  location_y: 1
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -3
-  location_y: 1
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+  temperature: 470
   location_x: -2
   location_y: 1
 - element: Naphtha
-  mass: 5000
-  temperature: 370
+  mass: 11509.9531
+  temperature: 470
   location_x: -1
   location_y: 1
 - element: Naphtha
-  mass: 5000
-  temperature: 370
+  mass: 11561.3184
+  temperature: 470
   location_y: 1
 - element: Naphtha
   mass: 5000
-  temperature: 370
+  temperature: 470
   location_x: 1
   location_y: 1
 - element: Naphtha
-  mass: 5000
-  temperature: 370
+  mass: 12363.2344
+  temperature: 470
   location_x: 2
   location_y: 1
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 3
   location_y: 1
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: 4
-  location_y: 1
 - element: Creature
   mass: 525.919983
-  temperature: 370
-  location_x: 5
-  location_y: 1
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -5
-  location_y: 2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -4
-  location_y: 2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -3
-  location_y: 2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+  temperature: 470
   location_x: -2
   location_y: 2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
   location_x: -1
   location_y: 2
 - element: Naphtha
-  mass: 5000
-  temperature: 370
+  mass: 13956.6055
+  temperature: 470
   location_y: 2
 - element: Naphtha
-  mass: 5000
-  temperature: 370
+  mass: 12354.8867
+  temperature: 470
   location_x: 1
   location_y: 2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 2
   location_y: 2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 3
   location_y: 2
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: 4
-  location_y: 2
 - element: Creature
   mass: 525.919983
-  temperature: 370
-  location_x: 5
-  location_y: 2
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -5
-  location_y: 3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -4
-  location_y: 3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -3
-  location_y: 3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: -2
   location_y: 3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
   location_x: -1
   location_y: 3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
   location_y: 3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
   location_x: 1
   location_y: 3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
   location_x: 2
   location_y: 3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 3
   location_y: 3
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: 4
-  location_y: 3
-- element: Creature
+- element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 5
-  location_y: 3
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -5
-  location_y: 4
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -4
-  location_y: 4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: -3
-  location_y: 4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: -2
   location_y: 4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: -1
   location_y: 4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
   location_y: 4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
   location_x: 1
   location_y: 4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 2
-  location_y: 4
-- element: Naphtha
-  mass: 5000
-  temperature: 370
-  location_x: 3
-  location_y: 4
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 4
-  location_y: 4
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 5
   location_y: 4
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: -5
-  location_y: 5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -4
-  location_y: 5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -3
-  location_y: 5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -2
-  location_y: 5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -1
-  location_y: 5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_y: 5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 1
-  location_y: 5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 2
-  location_y: 5
-- element: Creature
-  mass: 525.919983
-  temperature: 370
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 3
-  location_y: 5
-- element: Creature
+  location_y: 4
+- element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 4
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: -2
   location_y: 5
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 5
+  temperature: 470
+  location_x: -1
   location_y: 5
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: -4
-  location_y: -6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -3
-  location_y: -6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -2
-  location_y: -6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -1
-  location_y: -6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_y: -6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 1
-  location_y: -6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 2
-  location_y: -6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 3
-  location_y: -6
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 4
-  location_y: -6
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 6
-  location_y: -4
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 6
-  location_y: -3
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 6
-  location_y: -2
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 6
-  location_y: -1
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 6
-  location_y: 1
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 6
-  location_y: 2
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 6
-  location_y: 3
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 6
-  location_y: 4
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -4
-  location_y: 6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -3
-  location_y: 6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -2
-  location_y: 6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -1
-  location_y: 6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_y: 6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 1
-  location_y: 6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 2
-  location_y: 6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: 3
-  location_y: 6
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 4
-  location_y: 6
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -6
-  location_y: -4
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -6
-  location_y: -3
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -6
-  location_y: -2
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -6
-  location_y: -1
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -6
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -6
-  location_y: 1
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -6
-  location_y: 2
-- element: Creature
-  mass: 525.919983
-  temperature: 370
-  location_x: -6
-  location_y: 3
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -6
-  location_y: 4
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -6
+  temperature: 470
   location_y: 5
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: -5
-  location_y: 6
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -4
-  location_y: 7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -3
-  location_y: 7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -2
-  location_y: 7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -1
-  location_y: 7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_y: 7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
+  temperature: 470
   location_x: 1
-  location_y: 7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 2
-  location_y: 7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 3
-  location_y: 7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 4
-  location_y: 7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 5
-  location_y: 6
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 6
   location_y: 5
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 7
-  location_y: -4
+  temperature: 470
+  location_x: 2
+  location_y: 5
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 7
-  location_y: -3
+  temperature: 470
+  location_x: 3
+  location_y: 5
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 7
+  temperature: 470
+  location_x: -4
   location_y: -2
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 7
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: -3
+  location_y: -2
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 4
+  location_y: -2
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 5
+  location_y: -2
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  location_x: -4
+  location_y: -1
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: -3
+  location_y: -1
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 4
   location_y: -1
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 7
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 5
+  location_y: -1
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 7
+  temperature: 470
+  location_x: -4
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  location_x: -3
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 4
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 5
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  location_x: -4
+  location_y: 1
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  location_x: -3
+  location_y: 1
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 4
   location_y: 1
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 7
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 5
+  location_y: 1
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  location_x: -4
+  location_y: 2
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: -3
+  location_y: 2
+- element: Creature
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 4
   location_y: 2
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 7
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 5
+  location_y: 2
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: -4
   location_y: 3
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 7
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: -3
+  location_y: 3
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 4
+  location_y: 3
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 5
+  location_y: 3
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: -3
+  location_y: -3
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: 4
+  location_y: -3
+- element: SandStone
+  mass: 525.919983
+  temperature: 470
+  diseaseName: FoodPoisoning
+  location_x: -3
   location_y: 4
 - element: SandStone
   mass: 525.919983
-  temperature: 370
-  location_x: 6
-  location_y: -5
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 5
-  location_y: -6
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -4
-  location_y: -7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -3
-  location_y: -7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -2
-  location_y: -7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -1
-  location_y: -7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_y: -7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 1
-  location_y: -7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 2
-  location_y: -7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: 3
-  location_y: -7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
+  temperature: 470
+  diseaseName: FoodPoisoning
   location_x: 4
-  location_y: -7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -5
-  location_y: -6
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -6
-  location_y: -5
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -7
-  location_y: -4
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -7
-  location_y: -3
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -7
-  location_y: -2
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -7
-  location_y: -1
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -7
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -7
-  location_y: 1
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -7
-  location_y: 2
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -7
-  location_y: 3
-- element: SandStone
-  mass: 525.919983
-  temperature: 370
-  location_x: -7
   location_y: 4
 buildings: []
 pickupables: []

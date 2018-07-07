@@ -1,480 +1,480 @@
-name: nubrion_poi_liquid_crude_oil
+name: nubrion_poi_liquid_helium
 info:
   size:
     X: 10
     Y: 10
   area: 88
 cells:
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -2
   location_y: -4
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -1
   location_y: -4
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_y: -4
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 1
   location_y: -4
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 2
   location_y: -4
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 3
   location_y: -4
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -2
   location_y: -3
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -1
   location_y: -3
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_y: -3
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 1
   location_y: -3
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 2
   location_y: -3
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 3
   location_y: -3
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -2
   location_y: -2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -1
   location_y: -2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_y: -2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 1
   location_y: -2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 2
   location_y: -2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 3
   location_y: -2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -2
   location_y: -1
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -1
   location_y: -1
-- element: CrudeOil
+- element: LiquidHelium
   mass: 5000
-  temperature: 470
+  temperature: 1
   location_y: -1
-- element: CrudeOil
+- element: LiquidHelium
   mass: 5000
-  temperature: 470
+  temperature: 1
   location_x: 1
   location_y: -1
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 2
   location_y: -1
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 3
   location_y: -1
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -2
-- element: CrudeOil
+- element: LiquidHelium
   mass: 10572.4346
-  temperature: 470
+  temperature: 1
   location_x: -1
-- element: CrudeOil
+- element: LiquidHelium
   mass: 5000
-  temperature: 470
-- element: CrudeOil
+  temperature: 1
+- element: LiquidHelium
   mass: 5000
-  temperature: 470
+  temperature: 1
   location_x: 1
-- element: CrudeOil
+- element: LiquidHelium
   mass: 5000
-  temperature: 470
+  temperature: 1
   location_x: 2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 3
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -2
   location_y: 1
-- element: CrudeOil
+- element: LiquidHelium
   mass: 11509.9531
-  temperature: 470
+  temperature: 1
   location_x: -1
   location_y: 1
-- element: CrudeOil
+- element: LiquidHelium
   mass: 11561.3184
-  temperature: 470
+  temperature: 1
   location_y: 1
-- element: CrudeOil
+- element: LiquidHelium
   mass: 5000
-  temperature: 470
+  temperature: 1
   location_x: 1
   location_y: 1
-- element: CrudeOil
+- element: LiquidHelium
   mass: 12363.2344
-  temperature: 470
+  temperature: 1
   location_x: 2
   location_y: 1
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 3
   location_y: 1
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -2
   location_y: 2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -1
   location_y: 2
-- element: CrudeOil
+- element: LiquidHelium
   mass: 13956.6055
-  temperature: 470
+  temperature: 1
   location_y: 2
-- element: CrudeOil
+- element: LiquidHelium
   mass: 12354.8867
-  temperature: 470
+  temperature: 1
   location_x: 1
   location_y: 2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 2
   location_y: 2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 3
   location_y: 2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -2
   location_y: 3
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -1
   location_y: 3
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_y: 3
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: 1
   location_y: 3
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: 2
   location_y: 3
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 3
   location_y: 3
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -2
   location_y: 4
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -1
   location_y: 4
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_y: 4
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: 1
   location_y: 4
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 2
   location_y: 4
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 3
   location_y: 4
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -2
   location_y: 5
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -1
   location_y: 5
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_y: 5
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: 1
   location_y: 5
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: 2
   location_y: 5
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: 3
   location_y: 5
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -4
   location_y: -2
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -3
   location_y: -2
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 4
   location_y: -2
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 5
   location_y: -2
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -4
   location_y: -1
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -3
   location_y: -1
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 4
   location_y: -1
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 5
   location_y: -1
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -4
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -3
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 4
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 5
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -4
   location_y: 1
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -3
   location_y: 1
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 4
   location_y: 1
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 5
   location_y: 1
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   location_x: -4
   location_y: 2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -3
   location_y: 2
-- element: Creature
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 4
   location_y: 2
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 5
   location_y: 2
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -4
   location_y: 3
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -3
   location_y: 3
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 4
   location_y: 3
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 5
   location_y: 3
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -3
   location_y: -3
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 4
   location_y: -3
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: -3
   location_y: 4
-- element: SandStone
+- element: Katairite
   mass: 525.919983
-  temperature: 470
+  temperature: 1
   diseaseName: FoodPoisoning
   location_x: 4
   location_y: 4

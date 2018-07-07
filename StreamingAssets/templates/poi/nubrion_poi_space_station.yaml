@@ -94,17 +94,17 @@ cells:
   location_x: 1
   location_y: -11
 - element: LiquidOxygen
-  mass: 23449.8223
+  mass: 1000
   temperature: 76.5177612
   location_x: 2
   location_y: -11
 - element: LiquidOxygen
-  mass: 2559.49414
+  mass: 1000
   temperature: 76.5064392
   location_x: 3
   location_y: -11
 - element: LiquidOxygen
-  mass: 15291.1816
+  mass: 1000
   temperature: 76.5192184
   location_x: 4
   location_y: -11
@@ -143,22 +143,22 @@ cells:
   temperature: 107.849052
   location_y: -10
 - element: LiquidOxygen
-  mass: 3458.31177
+  mass: 1000
   temperature: 76.5264206
   location_x: 1
   location_y: -10
 - element: LiquidOxygen
-  mass: 14457.5527
+  mass: 1000
   temperature: 76.5177612
   location_x: 2
   location_y: -10
 - element: LiquidOxygen
-  mass: 2534.15234
+  mass: 1000
   temperature: 76.5064392
   location_x: 3
   location_y: -10
 - element: LiquidOxygen
-  mass: 13355.916
+  mass: 1000
   temperature: 76.5194016
   location_x: 4
   location_y: -10
@@ -1903,12 +1903,12 @@ cells:
   temperature: 107.849052
   location_y: -10
 - element: LiquidOxygen
-  mass: 3458.31177
+  mass: 1000
   temperature: 76.5264206
   location_x: 1
   location_y: -10
 - element: LiquidOxygen
-  mass: 14457.5527
+  mass: 1000
   temperature: 76.5177612
   location_x: 2
   location_y: -10
@@ -1918,7 +1918,7 @@ cells:
   location_x: 2
   location_y: -9
 - element: LiquidOxygen
-  mass: 23449.8223
+  mass: 1000
   temperature: 76.5177612
   location_x: 2
   location_y: -11
@@ -3421,17 +3421,17 @@ cells:
   location_x: 1
   location_y: -11
 - element: LiquidOxygen
-  mass: 23449.8223
+  mass: 1000
   temperature: 76.5177612
   location_x: 2
   location_y: -11
 - element: LiquidOxygen
-  mass: 2559.49414
+  mass: 1000
   temperature: 76.5064392
   location_x: 3
   location_y: -11
 - element: LiquidOxygen
-  mass: 15291.1816
+  mass: 1000
   temperature: 76.5192184
   location_x: 4
   location_y: -11
@@ -3451,7 +3451,7 @@ cells:
   location_x: 1
   location_y: -9
 - element: LiquidOxygen
-  mass: 3458.31177
+  mass: 1000
   temperature: 76.5264206
   location_x: 1
   location_y: -10
@@ -3461,12 +3461,12 @@ cells:
   location_x: 1
   location_y: -11
 - element: LiquidOxygen
-  mass: 23449.8223
+  mass: 1000
   temperature: 76.5177612
   location_x: 2
   location_y: -11
 - element: LiquidOxygen
-  mass: 2559.49414
+  mass: 1000
   temperature: 76.5064392
   location_x: 3
   location_y: -11
@@ -4034,17 +4034,17 @@ cells:
   temperature: 293.149994
   location_x: 20
 - element: LiquidOxygen
-  mass: 15291.1816
+  mass: 1000
   temperature: 76.5192184
   location_x: 4
   location_y: -11
 - element: LiquidOxygen
-  mass: 2559.49414
+  mass: 1000
   temperature: 76.5064392
   location_x: 3
   location_y: -11
 - element: LiquidOxygen
-  mass: 23449.8223
+  mass: 1000
   temperature: 76.5177612
   location_x: 2
   location_y: -11
@@ -4054,7 +4054,7 @@ cells:
   location_x: 1
   location_y: -11
 - element: LiquidOxygen
-  mass: 3458.31177
+  mass: 1000
   temperature: 76.5264206
   location_x: 1
   location_y: -10
@@ -4089,17 +4089,17 @@ cells:
   location_x: 4
   location_y: -9
 - element: LiquidOxygen
-  mass: 13355.916
+  mass: 1000
   temperature: 76.5194016
   location_x: 4
   location_y: -10
 - element: LiquidOxygen
-  mass: 2534.15234
+  mass: 1000
   temperature: 76.5064392
   location_x: 3
   location_y: -10
 - element: LiquidOxygen
-  mass: 14457.5527
+  mass: 1000
   temperature: 76.5177612
   location_x: 2
   location_y: -10

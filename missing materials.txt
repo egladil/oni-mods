@@ -1,14 +1,8 @@
 Chlorine
 Copper
-CrushedIce
-CrushedRock
 Gold
 LiquidCarbonDioxide
-MaficRock
-Regolith
-Snow
 Steam
 Void
 
-Lime
 RefinedCarbon

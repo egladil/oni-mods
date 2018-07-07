@@ -17,6 +17,7 @@ ZoneFiles:
 - name: Nubrion/subworlds/Molten
 - name: Nubrion/subworlds/Atmosphere
 - name: Nubrion/subworlds/Space
+- name: Nubrion/subworlds/Unstable
   
 DefineTagSet:
   FarAndDown:
@@ -44,7 +45,6 @@ UnknownCellsAllowedSubworlds:
 - tagcommand: Default
   command: UnionWith
   temperatureRanges:
-  - Cool
   - Mild
 
 - tagcommand: ContainsOne

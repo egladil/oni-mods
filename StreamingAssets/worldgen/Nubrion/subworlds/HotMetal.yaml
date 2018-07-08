@@ -1,10 +1,10 @@
-name: Unstable
+name: HotMetal
 zone:
   biomeNoise: noise/subworldHotMarsh
-  temperatureRange: Cool
+  temperatureRange: VeryHot
   density:
-    min: 20
-    max: 25
+    min: 10
+    max: 15
   avoidRadius: 20.0
   minChildCount: 4
   sampleBehaviour: PoissonDisk
@@ -13,10 +13,15 @@ zone:
 #  - type: features/hotmarsh/BlobRoom
 #  - type: features/hotmarsh/SandGeode
   biomes:
-  - name: Nubrion/biomes/Unstable/Basic
+  - name: Nubrion/biomes/Metal/Basic
+    weight: 3
+  - name: Nubrion/biomes/Metal/HotLake
     weight: 1
   tags:
   - IgnoreCaveOverride
+#  pointsOfInterest:
+#    geysers_a:
+#    - poi_swamp_geyser_steam
   featureTemplates:
-    nubrion_hot_water: 1
-  zoneType: FrozenWastes
+    nubrion_hot_steam: 1
+  zoneType: ToxicJungle

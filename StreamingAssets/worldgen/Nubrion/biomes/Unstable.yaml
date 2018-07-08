@@ -1,12 +1,12 @@
 TerrainBiomeLookupTable:
   Basic:
-  - content: Sand
+  - content: Regolith
     bandSize: 0.1
   - content: CrushedIce
     bandSize: 0.1
   - content: MaficRock
     bandSize: 0.2
-  - content: Regolith
+  - content: Sand
     bandSize: 0.1
   - content: Snow
     bandSize: 0.1

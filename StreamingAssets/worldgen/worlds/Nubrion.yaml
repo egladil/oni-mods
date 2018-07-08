@@ -2,16 +2,18 @@ name: Nubrion
 description: A brave new frontier
 worldsize:
   X: 512
-  Y: 512
+  Y: 768
   
 ZoneFiles:
 - name: subworlds/StartWorld
 - name: Nubrion/subworlds/Metal
+- name: Nubrion/subworlds/HotMetal
 - name: Nubrion/subworlds/Crystal
 - name: Nubrion/subworlds/SunnyGlade
 - name: Nubrion/subworlds/Swamp
 - name: Nubrion/subworlds/FrozenSwamp
 - name: Nubrion/subworlds/Cave
+- name: Nubrion/subworlds/WarmCave
 - name: Nubrion/subworlds/Hydrocarbon
 - name: Nubrion/subworlds/FrozenHydrocarbon
 - name: Nubrion/subworlds/Molten
@@ -56,8 +58,8 @@ UnknownCellsAllowedSubworlds:
 - tagcommand: ContainsOne
   tagset: StartMedium
   command: Replace
-  temperatureRanges:
-  - HumanHot
+  subworldNames:
+  - Swamp
 
 - tagcommand: ContainsOne
   tagset: StartFar
@@ -69,14 +71,28 @@ UnknownCellsAllowedSubworlds:
 
 - tagcommand: DistanceFrom
   tagset: NearOrAtSurface
-  distance: 2
-  maxDistance: 2
+  distance: 4
+  maxDistance: 4
   distCmp: -1
   command: Replace
   subworldNames:
   - Atmosphere
-- tagcommand: ContainsOne
+  - WarmCave
+  - HotMetal
+  - Hydrocarbon
+- tagcommand: DistanceFrom
   tagset: NearOrAtSurface
+  distance: 3
+  maxDistance: 3
+  distCmp: -1
+  command: Replace
+  subworldNames:
+  - Unstable
+- tagcommand: DistanceFrom
+  tagset: NearOrAtSurface
+  distance: 2
+  maxDistance: 2
+  distCmp: -1
   command: Replace
   subworldNames:
   - Space

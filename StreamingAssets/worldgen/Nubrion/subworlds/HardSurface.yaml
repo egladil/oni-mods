@@ -1,4 +1,4 @@
-name: Space
+name: HardSurface
 zone:
   biomeNoise: noise/subworldHotMarsh
   temperatureRange: VeryHot
@@ -13,11 +13,13 @@ zone:
 #  - type: features/hotmarsh/BlobRoom
 #  - type: features/hotmarsh/SandGeode
   biomes:
-  - name: Nubrion/biomes/Space/Basic
+  - name: Nubrion/biomes/HardSurface/BasicA
+    weight: 3
+  - name: Nubrion/biomes/HardSurface/BasicB
     weight: 1
   tags:
   - IgnoreCaveOverride
-  pointsOfInterest:
-    space_station:
-    - nubrion_poi_space_station
-  zoneType: Space
+  featureTemplates:
+    nubrion_small_volcano: 1
+    nubrion_big_volcano: 1
+  zoneType: Sandstone

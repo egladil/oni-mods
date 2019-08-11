@@ -1,6 +1,7 @@
 TerrainBiomeLookupTable:
-  Basic:
-  - content: Magma
-    bandSize: 1
-    overrides:
-      massMultiplier: 10
+  add:
+    Basic:
+    - content: Magma
+      bandSize: 1
+      overrides:
+        massMultiplier: 10

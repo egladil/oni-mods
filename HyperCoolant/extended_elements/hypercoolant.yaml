@@ -11,9 +11,9 @@ elements:
   molarMass: 250
   lightAbsorptionFactor: 0.9
   lowTempTransitionTarget: SolidHyperCoolant
-  lowTemp: 188.15
+  lowTemp: 73.15
   highTempTransitionTarget: HyperCoolantGas
-  highTemp: 480.15
+  highTemp: 773.15
   #sublimateId: str
   #sublimateFx: str
   #materialCategory: str
@@ -51,7 +51,7 @@ elements:
   molarMass: 250
   lightAbsorptionFactor: 0.9
   highTempTransitionTarget: HyperCoolant
-  highTemp: 188.15
+  highTemp: 73.15
   #sublimateId: str
   #sublimateFx: str
   #materialCategory: str
@@ -95,7 +95,7 @@ elements:
   molarMass: 250
   lightAbsorptionFactor: 0.9
   lowTempTransitionTarget: HyperCoolant
-  lowTemp: 480.15
+  lowTemp: 773.15
   #sublimateId: str
   #sublimateFx: str
   #materialCategory: str

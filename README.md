@@ -5,22 +5,33 @@ This is a set of mods for Oxygen Not Included made by me. They can be downloaded
 This mod adds a building to clone critter eggs using genetic ooze and water. Genetic ooze can be produced in the Molecular Forge.
 Cloning recipes are created automatically for all base game critters and any modded critters that provide either `EGG_ID` or `EggId` in their `IEntityConfig` class.
 
+[Workshop link](https://steamcommunity.com/sharedfiles/filedetails/?id=1953154411)
+
 ## Fusion Reactor
 **Depends on:** Radiation
+
 Adds a Fusion Reactor building to the game. The fusion reactor produces large amounts of heat by fusing hydrogen into helium and requires a steady flow of liquid coolant. See in game database entry for an extended description.
+
+[Workshop link](https://steamcommunity.com/sharedfiles/filedetails/?id=1953154411)
 
 ## Hyper Coolant
 Hyper Coolant is a liquid with very high heat capacity and thermal conductivity. It can be produced in the Molecular Forge from Super Coolant and Molten Lead.
 
+[Workshop link](https://steamcommunity.com/sharedfiles/filedetails/?id=1953155433)
+
 ## Material Tags
 This mod simply ensures that all materials in the game has a category in the Resources sidebar.
+
+[Workshop link](https://steamcommunity.com/sharedfiles/filedetails/?id=1953156470)
+
+## Nubrion
+A map mod I made quite a while ago. It has not been updated recently.
 
 ## Radiation
 Adds radiation to the game. This is mostly simulated using the existing germ mechanics, but with some exceptions. For instance radiation can spread between gases, liquids, and solids on its own. It can also spread from inside of pipes to the pipe itself and then out into the environment. It is not possible to disinfect radiation.
 Exposure to radiation will cause radiation sickness.
 
-## Nubrion
-A map mod I made quite a while ago. It has not been updated recently.
+[Workshop link](https://steamcommunity.com/sharedfiles/filedetails/?id=1953157233)
 
 ## Shared
 A set of useful tools and functions used by my mods. Provides functionality for easily defining strings, materials, and recipes from yaml among other things.

@@ -1,0 +1,16 @@
+recipes:
+- fabricator: SupermaterialRefinery
+  ingredients:
+  - material: SuperCoolant
+    amount: 50
+  - material: MoltenLead
+    amount: 50
+  results:
+  - material: Hypercoolant
+    amount: 20
+  - material: Lead
+    amount: 40
+  - material: Naphtha
+    amount: 40
+  time: 100
+  nameDisplay: Result

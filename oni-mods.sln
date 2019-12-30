@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperCoolant", "HyperCoolant\HyperCoolant.csproj", "{ABF7BB26-17EB-49D9-B86A-08691C3E5808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{0AE95D7A-06BA-41AA-9DF9-A1D1C6333872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{63B02A64-6BFF-4100-8580-5FBAC33AE745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloningBay", "CloningBay\CloningBay.csproj", "{5B828414-90BF-46DC-9216-5009EB35332D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialTags", "MaterialTags\MaterialTags.csproj", "{BE5FE10A-BEB8-4913-B883-B6767E1D6812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radiation", "Radiation\Radiation.csproj", "{968E2272-C3A0-426B-9798-DC08C0294325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionReactor", "FusionReactor\FusionReactor.csproj", "{716AD48F-8A19-4ECD-BA47-2C9677FD9A40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABF7BB26-17EB-49D9-B86A-08691C3E5808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF7BB26-17EB-49D9-B86A-08691C3E5808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF7BB26-17EB-49D9-B86A-08691C3E5808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF7BB26-17EB-49D9-B86A-08691C3E5808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE95D7A-06BA-41AA-9DF9-A1D1C6333872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE95D7A-06BA-41AA-9DF9-A1D1C6333872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE95D7A-06BA-41AA-9DF9-A1D1C6333872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE95D7A-06BA-41AA-9DF9-A1D1C6333872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63B02A64-6BFF-4100-8580-5FBAC33AE745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63B02A64-6BFF-4100-8580-5FBAC33AE745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63B02A64-6BFF-4100-8580-5FBAC33AE745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63B02A64-6BFF-4100-8580-5FBAC33AE745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B828414-90BF-46DC-9216-5009EB35332D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B828414-90BF-46DC-9216-5009EB35332D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B828414-90BF-46DC-9216-5009EB35332D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B828414-90BF-46DC-9216-5009EB35332D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5FE10A-BEB8-4913-B883-B6767E1D6812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5FE10A-BEB8-4913-B883-B6767E1D6812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5FE10A-BEB8-4913-B883-B6767E1D6812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5FE10A-BEB8-4913-B883-B6767E1D6812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968E2272-C3A0-426B-9798-DC08C0294325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968E2272-C3A0-426B-9798-DC08C0294325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968E2272-C3A0-426B-9798-DC08C0294325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968E2272-C3A0-426B-9798-DC08C0294325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716AD48F-8A19-4ECD-BA47-2C9677FD9A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716AD48F-8A19-4ECD-BA47-2C9677FD9A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716AD48F-8A19-4ECD-BA47-2C9677FD9A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716AD48F-8A19-4ECD-BA47-2C9677FD9A40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F868CDD1-D58D-430E-974F-7A4FFCB85558}
+	EndGlobalSection
+EndGlobal

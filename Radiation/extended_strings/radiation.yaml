@@ -1,0 +1,12 @@
+STRINGS:
+  MISC:
+    TAGS:
+      RADIOACTIVE: Radioactive
+  DUPLICANTS:
+    DISEASES:
+      RADIATION:
+        NAME: '<link="RADIATION">Radiation</link>'
+        LEGEND_HOVERTEXT: "Radiation\nCannot be disinfected\n"
+        DESCRIPTIVE_SYMPTOMS: 'Radiation Poisoning'
+      RADIATIONSICKNESS:
+        NAME: '<link="RADIATIONSICKNESS">Radiation Poisoning</link>'

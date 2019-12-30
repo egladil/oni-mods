@@ -1,0 +1,25 @@
+STRINGS:
+  BUILDINGS:
+    PREFABS:
+      FUSIONREACTOR:
+        NAME: 'Fusion Reactor'
+        EFFECT: 'Produces immense amounts of heat by fusing <link="HYDROGEN">Hydrogen</link> into <link="HELIUM">Helium</link>'
+        DESC: |-
+          The <link="FUSIONREACTOR">Fusion Reactor</link> produces heat by fusing <link="HYDROGEN">Hydrogen</link> into <link="HELIUM">Helium</link>. It produces about 1000 <link="HEAT">kDTU</link> and 100 <link="RADIATION">Radiation</link> per gram fuel. All the <link="HEAT">heat</link> and most of the <link="RADIATION">Radiation</link> is injected into the coolant.
+          
+          It can store up to 1000 g of fuel inside and will consume up to 50 g/s. At this rate it will produce 50000 <link="HEAT">kDTU/s</link> and 5000 <link="RADIATION">Radiation/s</link>. This is enough energy to increase the temperature of:
+          • 10 kg/s of <link="WATER">Water</link> by 1195.81 K
+          • 10 kg/s of <link="PETROLEUM">Petroleum</link> by 2783.76 K
+          • 10 kg/s of <link="SUPERCOOLANT">Super Coolant</link> by 321.27 K
+          
+          Any <link="LIQUIDS">Liquid</link> can be used as coolant. It can store up to 1000 kg of coolant and requires at least 100 kg to operate. The coolant level has to be managed externally.
+          
+          Disabling the building will not prevent coolant or fuel to store up inside so care must be taken when shutting it down.
+  BUILDING:
+    STATUSITEMS:
+      FUSIONHEATSTATUS:
+        NAME: '<link="HEAT">Fusion Heat</link>: {FusionHeat}'
+        TOOLTIP: '<link="HEAT">Fusion Heat</link>: {FusionHeat}'
+      FUSIONRADIATIONSTATUS:
+        NAME: '{RadiationName}: {FusionRadiation}'
+        TOOLTIP: '{RadiationName}: {FusionRadiation}'

@@ -1,0 +1,7 @@
+STRINGS:
+  BUILDINGS:
+    PREFABS:
+      CLONINGBAY:
+        NAME: 'Cloning Bay'
+        EFFECT: 'A facility to create cloned creatures from <link="CREATURE">Genetic Ooze</link>'
+        DESC: '<link="CREATURE">Genetic Ooze</link> can be made in a <link="SUPERMATERIALREFINERY">Molecular Forge</link>'

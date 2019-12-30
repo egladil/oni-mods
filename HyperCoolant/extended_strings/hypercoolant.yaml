@@ -1,0 +1,11 @@
+STRINGS:
+  ELEMENTS:
+    HYPERCOOLANT:
+      NAME: '<link="HYPERCOOLANT">Hyper Coolant</link>'
+      DESC: 'It''s like <link="SUPERCOOLANT">Super Coolant</link>, but better.'
+    HYPERCOOLANTGAS:
+      NAME: '<link="HYPERCOOLANTGAS">Hyper Coolant</link>'
+      DESC: 'It''s like <link="SUPERCOOLANT">Super Coolant</link>, but better.'
+    SOLIDHYPERCOOLANT:
+      NAME: '<link="SOLIDHYPERCOOLANT">Hyper Coolant</link>'
+      DESC: 'It''s like <link="SUPERCOOLANT">Super Coolant</link>, but better.'

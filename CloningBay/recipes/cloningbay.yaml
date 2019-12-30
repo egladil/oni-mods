@@ -1,0 +1,25 @@
+recipes:
+- fabricator: SupermaterialRefinery
+  ingredients:
+  - material: SlimeMold
+    amount: 50
+  - material: Algae
+    amount: 50
+  results:
+  - material: Creature
+    amount: 100
+  time: 100
+  nameDisplay: Result
+
+### Handled in code
+#- fabricator: CloningBay
+#  ingredients:
+#  - material: Creature
+#    amount: 100
+#  - material: Water
+#    amount: 100
+#  results:
+#  - material: OilfloaterEgg
+#    amount: 1
+#  time: 100
+#  nameDisplay: Result

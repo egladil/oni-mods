@@ -1,0 +1,123 @@
+elements:
+- elementId: HyperCoolant
+  specificHeatCapacity: 100
+  thermalConductivity: 50
+  solidSurfaceAreaMultiplier: 1
+  liquidSurfaceAreaMultiplier: 25
+  gasSurfaceAreaMultiplier: 1
+  defaultMass: 1000
+  defaultTemperature: 312.5
+  #defaultPressure: 1
+  molarMass: 250
+  lightAbsorptionFactor: 0.9
+  lowTempTransitionTarget: SolidHyperCoolant
+  lowTemp: 188.15
+  highTempTransitionTarget: HyperCoolantGas
+  highTemp: 480.15
+  #sublimateId: str
+  #sublimateFx: str
+  #materialCategory: str
+  #tags: []
+  #isDisabled: false
+  #strength: 1
+  maxMass: 1000
+  #hardness: 1
+  toxicity: 0.5
+  liquidCompression: 1.01
+  speed: 110
+  minHorizontalFlow: 0.1
+  minVerticalFlow: 0.1
+  #convertId: str
+  #flow: 1
+  #buildMenuSort: 0
+  state: Liquid
+  localizationID: STRINGS.ELEMENTS.HYPERCOOLANT.NAME
+  #description: str
+  substance:
+    baseSubstance: Water
+    color: { r: 255, g: 127, b: 0 }
+    uiColor: { r: 255, g: 127, b: 0 }
+    conduitColor: { r: 255, g: 127, b: 0 }
+
+- elementId: SolidHyperCoolant
+  specificHeatCapacity: 100
+  thermalConductivity: 50
+  solidSurfaceAreaMultiplier: 1
+  liquidSurfaceAreaMultiplier: 25
+  gasSurfaceAreaMultiplier: 1
+  defaultMass: 1000
+  defaultTemperature: 100.15
+  #defaultPressure: 1
+  molarMass: 250
+  lightAbsorptionFactor: 0.9
+  highTempTransitionTarget: HyperCoolant
+  highTemp: 188.15
+  #sublimateId: str
+  #sublimateFx: str
+  #materialCategory: str
+  #tags: []
+  #isDisabled: false
+  #strength: 1
+  maxMass: 1000
+  #hardness: 1
+  toxicity: 0.5
+  liquidCompression: 1.01
+  speed: 110
+  minHorizontalFlow: 0.1
+  minVerticalFlow: 0.1
+  #convertId: str
+  #flow: 1
+  #buildMenuSort: 0
+  state: Solid
+  localizationID: STRINGS.ELEMENTS.SOLIDHYPERCOOLANT.NAME
+  #description: str
+  substance:
+    baseSubstance: Snow
+    color: { r: 255, g: 127, b: 0 }
+    uiColor: { r: 255, g: 127, b: 0 }
+    conduitColor: { r: 255, g: 127, b: 0 }
+  attributeModifiers:
+  - attributeId: OverheatTemperature
+    value: 5000
+  - attributeId: Decor
+    value: 2
+    multiplier: true
+
+- elementId: HyperCoolantGas
+  specificHeatCapacity: 100
+  thermalConductivity: 50
+  solidSurfaceAreaMultiplier: 1
+  liquidSurfaceAreaMultiplier: 25
+  gasSurfaceAreaMultiplier: 1
+  defaultMass: 1000
+  defaultTemperature: 700.15
+  #defaultPressure: 1
+  molarMass: 250
+  lightAbsorptionFactor: 0.9
+  lowTempTransitionTarget: HyperCoolant
+  lowTemp: 480.15
+  #sublimateId: str
+  #sublimateFx: str
+  #materialCategory: str
+  #tags: []
+  #isDisabled: false
+  #strength: 1
+  maxMass: 1000
+  #hardness: 1
+  toxicity: 0.5
+  liquidCompression: 1.01
+  speed: 110
+  minHorizontalFlow: 0.1
+  minVerticalFlow: 0.1
+  #convertId: str
+  #flow: 1
+  #buildMenuSort: 0
+  state: Gas
+  localizationID: STRINGS.ELEMENTS.HYPERCOOLANTGAS.NAME
+  #description: str
+  substance:
+    baseSubstance: SourGas
+    color: { r: 255, g: 127, b: 0 }
+    uiColor: { r: 255, g: 127, b: 0 }
+    conduitColor: { r: 255, g: 127, b: 0 }
+

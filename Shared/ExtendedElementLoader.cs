@@ -44,7 +44,7 @@ namespace Egladil
 
         [PatchOnce]
         [HarmonyPatch(typeof(ElementLoader), nameof(ElementLoader.Load))]
-        public class ElementLoader_Load
+        public class ElementLoader_Load_Patch
         {
             public static bool Prepare() => InitOnce.Patch;
 
@@ -52,8 +52,8 @@ namespace Egladil
             {
                 elementEntries = Yaml.CollectFromYAML<ElementEntry, ElementEntryCollection>(path);
                 Log.Info($"Adding {elementEntries.Count} elements");
-                
-                foreach (ElementEntry entry in elementEntries )
+
+                foreach (ElementEntry entry in elementEntries)
                 {
                     if (entry.substance != null)
                     {
@@ -84,13 +84,24 @@ namespace Egladil
                             element.attributeModifiers.Add(MakeAttributeModifier(attr));
                         }
                     }
+
+                    var exists = ElementLoader.elements.Exists(x => x.id == (SimHashes)Hash.SDBMLower(entry.elementId));
+                    if (!exists)
+                    {
+                        Log.Error($"Element {entry.elementId} was not added to list, only hashtable");
+                        continue;
+                    }
+
+                    Traverse.Create(element.substance).Field("nameTag").SetValue(element.tag);
+
+                    Log.Spam($"{entry.elementId}: {element.nameUpperCase}, {element.tag} | {Traverse.Create(element.substance).Field("nameTag").GetValue<Tag>()}");
                 }
             }
         }
 
         [PatchOnce]
         [HarmonyPatch(typeof(ElementLoader), nameof(ElementLoader.CollectElementsFromYAML))]
-        public class ElementLoader_CollectElementsFromYAML
+        public class ElementLoader_CollectElementsFromYAML_Patch
         {
             public static bool Prepare() => InitOnce.Patch;
 

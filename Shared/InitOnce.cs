@@ -71,7 +71,7 @@ namespace Egladil
 
     public class InitOnce
     {
-        public static readonly Version Version = new Version(1, 0, 0, 0);
+        public static readonly Version Version = new Version(1, 0, 1, 0);
 
         public static bool Patch { get; private set; }
 

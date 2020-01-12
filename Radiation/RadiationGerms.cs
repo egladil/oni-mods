@@ -62,6 +62,9 @@ namespace Egladil
             elemGrowthInfo[ElementLoader.GetElementIndex(SimHashes.Polypropylene)] = RADIATION_GROWTH_INFO;
             elemGrowthInfo[ElementLoader.GetElementIndex(SimHashes.Vacuum)] = RADIATION_GROWTH_INFO;
 
+            elemGrowthInfo[ElementLoader.GetElementIndex(SimHashes.Vacuum)].populationHalfLife = 5 * 600;
+            elemGrowthInfo[ElementLoader.GetElementIndex(SimHashes.Vacuum)].diffusionScale = 1;
+
             AddGrowthRule(new GrowthRule
             {
                 underPopulationDeathRate = new float?(RADIATION_GROWTH_INFO.underPopulationDeathRate),

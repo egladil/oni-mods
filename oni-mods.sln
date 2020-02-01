@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radiation", "Radiation\Radi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionReactor", "FusionReactor\FusionReactor.csproj", "{716AD48F-8A19-4ECD-BA47-2C9677FD9A40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigawattWire", "GigawattWire\GigawattWire.csproj", "{CF5D36AE-7B3D-49F0-BB7E-734E55EECB23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{716AD48F-8A19-4ECD-BA47-2C9677FD9A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{716AD48F-8A19-4ECD-BA47-2C9677FD9A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{716AD48F-8A19-4ECD-BA47-2C9677FD9A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5D36AE-7B3D-49F0-BB7E-734E55EECB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5D36AE-7B3D-49F0-BB7E-734E55EECB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5D36AE-7B3D-49F0-BB7E-734E55EECB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5D36AE-7B3D-49F0-BB7E-734E55EECB23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

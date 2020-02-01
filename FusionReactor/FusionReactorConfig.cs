@@ -156,12 +156,7 @@ namespace Egladil
         {
             public static void Prefix()
             {
-                HashedString category = "Utilities";
-                var plan = TUNING.BUILDINGS.PLANORDER.Find(x => x.category == category);
-                if (plan.category == category)
-                {
-                    ((IList<string>)plan.data).Add(ID);
-                }
+                Buildings.AddToPlan(ID, "Utilities");
             }
         }
 
@@ -170,10 +165,7 @@ namespace Egladil
         {
             public static void Prefix()
             {
-                string category = "Catalytics";
-                var tech = Database.Techs.TECH_GROUPING[category].ToList();
-                tech.Add(ID);
-                Database.Techs.TECH_GROUPING[category] = tech.ToArray();
+                Buildings.AddToTech(ID, "Catalytics");
             }
         }
     }

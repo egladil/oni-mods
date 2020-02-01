@@ -14,6 +14,23 @@ Adds a Fusion Reactor building to the game. The fusion reactor produces large am
 
 [Workshop link](https://steamcommunity.com/sharedfiles/filedetails/?id=1953154411)
 
+## Gigawatt Wire
+Adds two new tiers of wires to the game, and two new power transformers.
+
+### Mega-Watt Wire
+This wire can carry up to 1000 kW and must be built from highly conductive metals and with an insulating plastic coating. A corresponding joint plate is also added.
+
+### Giga-Watt Wire
+This wire can carry up to 1000 MW and is built using a mix of ceramic and fullerene that turns superconductive at very low temperatures. The wire will break if it becomes too hot. A corresponding joint plate is also added.
+
+### 100 kW Power Transform
+As the name implies, this transformer can transform 100 kW of electric power. It is 3x3 tiles in size.
+
+### 2 MW Power Transform
+If you ever feel that the 100 kW Power Transformer is too small... This one can transform 2000 kW of electric power and is 3x4 tiles large.
+
+[Workshop link](https://steamcommunity.com/sharedfiles/filedetails/?id=1984954968)
+
 ## Hyper Coolant
 Hyper Coolant is a liquid with very high heat capacity and thermal conductivity. It can be produced in the Molecular Forge from Super Coolant and Molten Lead.
 

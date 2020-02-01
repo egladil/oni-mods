@@ -12,7 +12,7 @@ namespace Egladil
         {
             BuildingDef buildingDef = base.CreateBuildingDef();
             buildingDef.AnimFiles = new KAnimFile[1] { Assets.GetAnim("utilityelectricbridgeconductive_kanim") };
-            buildingDef.Mass = ExtendedWire.INSULATED_WIRE_MASS_KG;
+            buildingDef.Mass = ExtendedWire.JACKETED_WIRE_MASS_KG;
             buildingDef.MaterialCategory = ExtendedWire.MEGAWATT_WIRE_MATERIALS;
             GeneratedBuildings.RegisterWithOverlay(OverlayScreen.WireIDs, ID);
             return buildingDef;

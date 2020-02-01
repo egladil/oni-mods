@@ -23,10 +23,10 @@ This wire can carry up to 1000 kW and must be built from highly conductive metal
 ### Giga-Watt Wire
 This wire can carry up to 1000 MW and is built using a mix of ceramic and fullerene that turns superconductive at very low temperatures. The wire will break if it becomes too hot. A corresponding joint plate is also added.
 
-### 100 kW Power Transform
+### 100 kW Power Transformer
 As the name implies, this transformer can transform 100 kW of electric power. It is 3x3 tiles in size.
 
-### 2 MW Power Transform
+### 2 MW Power Transformer
 If you ever feel that the 100 kW Power Transformer is too small... This one can transform 2000 kW of electric power and is 3x4 tiles large.
 
 [Workshop link](https://steamcommunity.com/sharedfiles/filedetails/?id=1984954968)

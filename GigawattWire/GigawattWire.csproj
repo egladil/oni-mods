@@ -60,6 +60,8 @@
     <Compile Include="ExtendedWire.cs" />
     <Compile Include="GigawattWireBridgeConfig.cs" />
     <Compile Include="GigawattWireConfig.cs" />
+    <Compile Include="JacketedWireBridgeConfig.cs" />
+    <Compile Include="JacketedWireConfig.cs" />
     <Compile Include="MegawattWireBridgeConfig.cs" />
     <Compile Include="MegawattWireConfig.cs" />
     <Compile Include="PowerTransformer2MWConfig.cs" />

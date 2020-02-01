@@ -10,13 +10,14 @@ namespace Egladil
     {
         public enum WattageRating
         {
-            Max5W,
+            Max500W,
             Max1kW,
             Max2kW,
             Max20kW,
             Max50kW,
             Max1MW,
             Max1GW,
+            Max5kW,
             NumRatings
         }
 
@@ -28,8 +29,10 @@ namespace Egladil
         {
             switch(rating)
             {
-                case WattageRating.Max5W:
+                case WattageRating.Max500W:
+                case WattageRating.Max1kW:
                 case WattageRating.Max2kW:
+                case WattageRating.Max5kW:
                     return GameUtil.WattageFormatterUnit.Watts;
                 case WattageRating.Max20kW:
                 case WattageRating.Max50kW:
@@ -47,6 +50,7 @@ namespace Egladil
 
         public static readonly string[] MEGAWATT_WIRE_MATERIALS = new string[] { CONDUCTOR, TUNING.MATERIALS.PLASTIC };
         public static readonly float[] MEGAWATT_WIRE_MASS_KG = new float[] { TUNING.BUILDINGS.CONSTRUCTION_MASS_KG.TIER3[0], TUNING.BUILDINGS.CONSTRUCTION_MASS_KG.TIER0[0] };
+        public static readonly float[] INSULATED_WIRE_MASS_KG = new float[] { TUNING.BUILDINGS.CONSTRUCTION_MASS_KG.TIER1[0], TUNING.BUILDINGS.CONSTRUCTION_MASS_KG.TIER_TINY[0] };
 
         public static readonly string[] GIGAWATT_WIRE_MATERIALS = new string[] { SimHashes.Ceramic.ToString(), SimHashes.Fullerene.ToString(), TUNING.MATERIALS.PLASTIC };
         public static readonly float[] GIGAWATT_WIRE_MASS_KG = new float[] { TUNING.BUILDINGS.CONSTRUCTION_MASS_KG.TIER3[0], TUNING.BUILDINGS.CONSTRUCTION_MASS_KG.TIER0[0], TUNING.BUILDINGS.CONSTRUCTION_MASS_KG.TIER1[0] };
@@ -99,13 +103,16 @@ namespace Egladil
                     return true;
                 }
 
-                switch ((WattageRating)rating)
+                switch (rating.ToExtendedWireWattageRating())
                 {
                     case WattageRating.Max1MW:
                         __result = 1e6f;
                         break;
                     case WattageRating.Max1GW:
                         __result = 1e9f;
+                        break;
+                    case WattageRating.Max5kW:
+                        __result = 5e3f;
                         break;
                     default:
                         __result = 0;
@@ -364,7 +371,9 @@ namespace Egladil
         {
             public static void Prefix()
             {
-                Buildings.AddToPlan(MegawattWireConfig.ID, "Power", after: "WireRefinedBridgeHighWattage");
+                Buildings.AddToPlan(JacketedWireConfig.ID, "Power", after: "WireRefinedBridgeHighWattage");
+                Buildings.AddToPlan(JacketedWireBridgeConfig.ID, "Power", after: JacketedWireConfig.ID);
+                Buildings.AddToPlan(MegawattWireConfig.ID, "Power", after: JacketedWireBridgeConfig.ID);
                 Buildings.AddToPlan(MegawattWireBridgeConfig.ID, "Power", after: MegawattWireConfig.ID);
                 Buildings.AddToPlan(GigawattWireConfig.ID, "Power", after: MegawattWireBridgeConfig.ID);
                 Buildings.AddToPlan(GigawattWireBridgeConfig.ID, "Power", after: GigawattWireConfig.ID);
@@ -379,6 +388,8 @@ namespace Egladil
         {
             public static void Prefix()
             {
+                Buildings.AddToTech(JacketedWireConfig.ID, "RenewableEnergy");
+                Buildings.AddToTech(JacketedWireBridgeConfig.ID, "RenewableEnergy");
                 Buildings.AddToTech(MegawattWireConfig.ID, "RenewableEnergy");
                 Buildings.AddToTech(MegawattWireBridgeConfig.ID, "RenewableEnergy");
                 Buildings.AddToTech(PowerTransformer100kWConfig.ID, "RenewableEnergy");

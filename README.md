@@ -15,7 +15,10 @@ Adds a Fusion Reactor building to the game. The fusion reactor produces large am
 [Workshop link](https://steamcommunity.com/sharedfiles/filedetails/?id=1953154411)
 
 ## Gigawatt Wire
-Adds two new tiers of wires to the game, and two new power transformers.
+Adds three new tiers of wires to the game, and two new power transformers.
+
+### Insulated Wire
+This smaller wire can carry up to 5 kW and must be built from highly conductive metals and with an insulating plastic coating. A corresponding wire bridge is also added.
 
 ### Mega-Watt Wire
 This wire can carry up to 1000 kW and must be built from highly conductive metals and with an insulating plastic coating. A corresponding joint plate is also added.

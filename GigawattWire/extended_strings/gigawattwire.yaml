@@ -26,7 +26,7 @@ STRINGS:
           Carries even more <link="POWER">Wattage</link> than a <link="MEGAWATTWIRE">Mega-Watt Wire</link>
           
           Cannot be run through wall and floor tile.
-        DESC: 'By using special supercondictive materials and low temperatures this wire can carry up to 1000 MW'
+        DESC: 'By using special superconductive materials and low temperatures this wire can carry up to 1000 MW'
       GIGAWATTWIREBRIDGE:
         NAME: '<link="GIGAWATTWIREBRIDGE">Giga-Watt Joint Plate</link>'
         EFFECT: |-

@@ -2,7 +2,7 @@
 
 namespace Egladil
 {
-    public class JacketedWireBridgeConfig : WireBridgeHighWattageConfig
+    public class JacketedWireBridgeConfig : WireBridgeConfig
     {
         public new const string ID = "JacketedWireBridge";
 

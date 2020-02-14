@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Buildings.cs" />
+    <Compile Include="Serialization.cs" />
     <Compile Include="RequireConduitInput.cs" />
     <Compile Include="ConduitInput.cs" />
     <Compile Include="RequireConduitOutput.cs" />

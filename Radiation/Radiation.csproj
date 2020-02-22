@@ -8,7 +8,7 @@
     <ProjectGuid>{968E2272-C3A0-426B-9798-DC08C0294325}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Radiation</RootNamespace>
+    <RootNamespace>Egladil</RootNamespace>
     <AssemblyName>Radiation</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

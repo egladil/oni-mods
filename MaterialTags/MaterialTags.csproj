@@ -8,7 +8,7 @@
     <ProjectGuid>{BE5FE10A-BEB8-4913-B883-B6767E1D6812}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MaterialTags</RootNamespace>
+    <RootNamespace>Egladil</RootNamespace>
     <AssemblyName>MaterialTags</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

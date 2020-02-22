@@ -1,0 +1,37 @@
+STRINGS:
+  BUILDINGS:
+    PREFABS:
+      LOGIC4BITADDER:
+        NAME: '4-bit Adder'
+        EFFECT: 'Adds two four-bit numbers together'
+        DESC: 'Outputs the four bit sum of the two inputs. The sum is increased by one if Carry In is <b><color=#57b95e>active</b></color>. The fifth bit of the sum is output to Carry Out.'
+      LOGIC4BITCOMPARATOR:
+        NAME: '4-bit Comparator'
+        EFFECT: 'Compares two four-bit numbers'
+        DESC: 'Sends a high signal indicating which input was highest. If both inputs are equal, both outputs are <b><color=#f44a47>inactive</b></color>.'
+      LOGIC4BITINPUT:
+        NAME: '4-bit Switch'
+        EFFECT: 'Sends the selected number as a 4-bit binary value to its output'
+        DESC: 'Pick a number, any number!'
+      LOGIC4BITOUTPUT:
+        NAME: '4-bit Display'
+        EFFECT: 'Shows the 4-bit binary value on its input as a hexadecimal digit'
+        DESC: 'This one goes to 0xf'
+  UI:
+    LOGIC_PORTS:
+      CARRY_IN_NAME: 'Carry In'
+      CARRY_IN_ACTIVE: 'Carry In Active'
+      CARRY_IN_INACTIVE: 'Carry In Inactive'
+      CARRY_OUT_NAME: 'Carry Out'
+      CARRY_OUT_ACTIVE: 'Result is 16 or more'
+      CARRY_OUT_INACTIVE: 'Result is less than 16'
+      GREATER_THAN_NAME: 'Greater Than'
+      GREATER_THAN_ACTIVE: 'A is greater than B'
+      GREATER_THAN_INACTIVE: 'A is not greater than B'
+      LESS_THAN_NAME: 'Less Than'
+      LESS_THAN_ACTIVE: 'A is less than B'
+      LESS_THAN_INACTIVE: 'A is not less than B'
+    UISIDESCREENS:
+      LOGIC_4BIT_INPUT_SIDE_SCREEN:
+        TITLE: 'Value'
+        TOOLTIP: 'Will send {0} as a 4-bit binary value'

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="ui_0.png" width="113" height="110" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="place_0.png" width="216" height="316" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="background_0.png" width="216" height="316" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="bloom_0.png" width="24" height="24" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="bloom_1.png" width="24" height="24" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="bloom_2.png" width="24" height="24" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="logic_4bit_adder">
+        <animation id="0" name="ui" length="165" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="ui_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-56.3" y="100" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="place" length="165" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="place_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-108" y="308" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="off" length="165" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-108" y="308" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="bloom_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="38" y="262" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="bloom_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-62" y="62" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="on_0" length="165" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-108" y="308" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="bloom_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="38" y="262" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="bloom_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-62" y="62" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="on_1" length="165" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-108" y="308" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="bloom_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="38" y="262" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="bloom_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-62" y="62" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="on_2" length="165" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-108" y="308" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="bloom_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="38" y="262" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="bloom_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-62" y="62" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="6" name="on_3" length="165" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-108" y="308" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="bloom_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="38" y="262" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="bloom_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-62" y="62" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

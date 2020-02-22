@@ -262,3 +262,5 @@ __pycache__/
 
 # Modding
 /Mods/
+/assets/
+*.autosave.scml

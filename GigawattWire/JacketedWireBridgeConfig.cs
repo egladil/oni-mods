@@ -11,7 +11,7 @@ namespace Egladil
         public override BuildingDef CreateBuildingDef()
         {
             BuildingDef buildingDef = base.CreateBuildingDef();
-            buildingDef.AnimFiles = new KAnimFile[1] { Assets.GetAnim("utilityelectricbridgeconductive_kanim") };
+            buildingDef.AnimFiles = new KAnimFile[1] { Assets.GetAnim("jacketed_wire_bridge_kanim") };
             buildingDef.Mass = ExtendedWire.JACKETED_WIRE_MASS_KG;
             buildingDef.MaterialCategory = ExtendedWire.MEGAWATT_WIRE_MATERIALS;
             GeneratedBuildings.RegisterWithOverlay(OverlayScreen.WireIDs, ID);

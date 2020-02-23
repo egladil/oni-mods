@@ -9,7 +9,7 @@ namespace Egladil
         
         public override BuildingDef CreateBuildingDef()
         {
-            BuildingDef buildingDef = CreateBuildingDef(ID, "utilities_electric_conduct_hiwatt_kanim", 3f, ExtendedWire.GIGAWATT_WIRE_MASS_KG, 0.05f, noise: TUNING.NOISE_POLLUTION.NONE, decor: TUNING.BUILDINGS.DECOR.PENALTY.TIER3);
+            BuildingDef buildingDef = CreateBuildingDef(ID, "gigawatt_wire_kanim", 3f, ExtendedWire.GIGAWATT_WIRE_MASS_KG, 0.05f, noise: TUNING.NOISE_POLLUTION.NONE, decor: TUNING.BUILDINGS.DECOR.PENALTY.TIER3);
             buildingDef.MaterialCategory = ExtendedWire.GIGAWATT_WIRE_MATERIALS;
             buildingDef.Overheatable = true;
             buildingDef.OverheatTemperature = 3.15f;

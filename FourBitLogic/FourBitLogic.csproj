@@ -69,6 +69,8 @@
     <Compile Include="LogicInput.cs" />
     <Compile Include="LogicInputConfig.cs" />
     <Compile Include="LogicOutputConfig.cs" />
+    <Compile Include="LogicRam.cs" />
+    <Compile Include="LogicRamConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

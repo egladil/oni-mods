@@ -20,6 +20,12 @@ namespace Egladil
         public static readonly HashedString GREATER_THAN = "GreaterThan";
         public static readonly HashedString LESS_THAN = "LessThan";
 
+        public static readonly HashedString READ = "Read";
+        public static readonly HashedString WRITE = "Write";
+        public static readonly HashedString DATA = "Data";
+        public static readonly HashedString ADDRESS_1 = "Address1";
+        public static readonly HashedString ADDRESS_2 = "Address2";
+
         [HarmonyPatch(typeof(GeneratedBuildings), nameof(GeneratedBuildings.LoadGeneratedBuildings))]
         public static class GeneratedBuildings_LoadGeneratedBuildings_Patch
         {
@@ -29,6 +35,7 @@ namespace Egladil
                 Buildings.AddToPlan(LogicOutputConfig.ID, "Automation", after: LogicInputConfig.ID);
                 Buildings.AddToPlan(LogicAdderConfig.ID, "Automation", after: LogicOutputConfig.ID);
                 Buildings.AddToPlan(LogicComparatorConfig.ID, "Automation", after: LogicAdderConfig.ID);
+                Buildings.AddToPlan(LogicRamConfig.ID, "Automation", after: LogicComparatorConfig.ID);
             }
         }
 
@@ -41,6 +48,7 @@ namespace Egladil
                 Buildings.AddToTech(LogicOutputConfig.ID, "LogicCircuits");
                 Buildings.AddToTech(LogicAdderConfig.ID, "LogicCircuits");
                 Buildings.AddToTech(LogicComparatorConfig.ID, "LogicCircuits");
+                Buildings.AddToTech(LogicRamConfig.ID, "LogicCircuits");
             }
         }
     }

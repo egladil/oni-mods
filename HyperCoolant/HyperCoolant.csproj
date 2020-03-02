@@ -8,7 +8,7 @@
     <ProjectGuid>{ABF7BB26-17EB-49D9-B86A-08691C3E5808}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HyperCoolant</RootNamespace>
+    <RootNamespace>Egladil</RootNamespace>
     <AssemblyName>HyperCoolant</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

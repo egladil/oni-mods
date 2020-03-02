@@ -8,7 +8,7 @@ namespace Egladil
         
         public override BuildingDef CreateBuildingDef()
         {
-            BuildingDef buildingDef = CreateBuildingDef(ID, "utilities_electric_conduct_kanim", 3f, ExtendedWire.JACKETED_WIRE_MASS_KG, 0.05f, noise: TUNING.NOISE_POLLUTION.NONE, decor: TUNING.BUILDINGS.DECOR.NONE);
+            BuildingDef buildingDef = CreateBuildingDef(ID, "jacketed_wire_kanim", 3f, ExtendedWire.JACKETED_WIRE_MASS_KG, 0.05f, noise: TUNING.NOISE_POLLUTION.NONE, decor: TUNING.BUILDINGS.DECOR.NONE);
             buildingDef.MaterialCategory = ExtendedWire.MEGAWATT_WIRE_MATERIALS;
             return buildingDef;
         }

@@ -8,7 +8,7 @@
     <ProjectGuid>{716AD48F-8A19-4ECD-BA47-2C9677FD9A40}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FusionReactor</RootNamespace>
+    <RootNamespace>Egladil</RootNamespace>
     <AssemblyName>FusionReactor</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

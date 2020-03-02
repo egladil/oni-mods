@@ -8,7 +8,7 @@
     <ProjectGuid>{5B828414-90BF-46DC-9216-5009EB35332D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CloningBay</RootNamespace>
+    <RootNamespace>Egladil</RootNamespace>
     <AssemblyName>CloningBay</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

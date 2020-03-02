@@ -8,7 +8,7 @@
     <ProjectGuid>{CF5D36AE-7B3D-49F0-BB7E-734E55EECB23}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GigawattWire</RootNamespace>
+    <RootNamespace>Egladil</RootNamespace>
     <AssemblyName>GigawattWire</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

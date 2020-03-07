@@ -17,7 +17,7 @@ namespace Egladil
             def.ViewMode = OverlayModes.Logic.ID;
             def.AudioCategory = "Metal";
             def.SceneLayer = Grid.SceneLayer.LogicGates;
-            def.ObjectLayer = ObjectLayer.LogicGates;
+            def.ObjectLayer = ObjectLayer.LogicGate;
             def.AlwaysOperational = true;
 
             def.LogicOutputPorts = new List<LogicPorts.Port>

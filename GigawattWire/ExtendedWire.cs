@@ -247,30 +247,31 @@ namespace Egladil
         [HarmonyPatch(typeof(ElectricalUtilityNetwork), "Reset")]
         public class ElectricalUtilityNetwork_Reset_Patch
         {
-            public static bool Prefix(ElectricalUtilityNetwork __instance, UtilityNetworkGridNode[] grid, float ___timeOverloaded, List<Wire>[] ___wireGroups)
+            public static bool Prefix(ElectricalUtilityNetwork __instance, List<Wire> ___allWires, UtilityNetworkGridNode[] grid, float ___timeOverloaded, List<Wire>[] ___wireGroups)
             {
                 for (int i = 0; i < ___wireGroups.Length; i++)
                 {
-                    List<Wire> list = ___wireGroups[i];
-                    if (list == null)
+                    List<Wire> wires = ___wireGroups[i];
+                    if (wires == null)
                     {
                         continue;
                     }
-                    for (int j = 0; j < list.Count; j++)
+                    for (int j = 0; j < wires.Count; j++)
                     {
-                        Wire wire = list[j];
+                        Wire wire = wires[j];
                         if (wire != null)
                         {
                             wire.circuitOverloadTime = ___timeOverloaded;
-                            int num = Grid.PosToCell(wire.transform.GetPosition());
-                            UtilityNetworkGridNode utilityNetworkGridNode = grid[num];
+                            int cell = Grid.PosToCell(wire.transform.GetPosition());
+                            UtilityNetworkGridNode utilityNetworkGridNode = grid[cell];
                             utilityNetworkGridNode.networkIdx = -1;
-                            grid[num] = utilityNetworkGridNode;
+                            grid[cell] = utilityNetworkGridNode;
                         }
                     }
-                    list.Clear();
+                    wires.Clear();
                 }
 
+                ___allWires.Clear();
                 Traverse.Create(__instance).Method("RemoveOverloadedNotification").GetValue();
 
                 return false;
@@ -284,26 +285,26 @@ namespace Egladil
             {
                 Log.Spam($"UpdateOverloadTime: {___wireGroups.Length}, {bridgeGroups.Length}");
 
-                bool flag = false;
-                List<Wire> list = null;
-                List<WireUtilityNetworkLink> list2 = null;
-                for (int i = 0; i < ___wireGroups.Length; i++)
+                bool wattage_rating_exceeded = false;
+                List<Wire> overloaded_wires = null;
+                List<WireUtilityNetworkLink> overloaded_bridges = null;
+                for (int rating_idx = 0; rating_idx < ___wireGroups.Length; rating_idx++)
                 {
-                    List<Wire> list3 = ___wireGroups[i];
-                    List<WireUtilityNetworkLink> list4 = bridgeGroups[i];
-                    Wire.WattageRating rating = (Wire.WattageRating)i;
-                    float maxWattageAsFloat = Wire.GetMaxWattageAsFloat(rating);
-                    if (watts_used > maxWattageAsFloat && ((list4 != null && list4.Count > 0) || (list3 != null && list3.Count > 0)))
+                    List<Wire> wires = ___wireGroups[rating_idx];
+                    List<WireUtilityNetworkLink> bridges = bridgeGroups[rating_idx];
+                    Wire.WattageRating rating = (Wire.WattageRating)rating_idx;
+                    float max_wattage = Wire.GetMaxWattageAsFloat(rating);
+                    if (watts_used > max_wattage && ((bridges != null && bridges.Count > 0) || (wires != null && wires.Count > 0)))
                     {
-                        flag = true;
-                        list = list3;
-                        list2 = list4;
+                        wattage_rating_exceeded = true;
+                        overloaded_wires = wires;
+                        overloaded_bridges = bridges;
                         break;
                     }
                 }
-                list?.RemoveAll((Wire x) => x == null);
-                list2?.RemoveAll((WireUtilityNetworkLink x) => x == null);
-                if (flag)
+                overloaded_wires?.RemoveAll((Wire x) => x == null);
+                overloaded_bridges?.RemoveAll((WireUtilityNetworkLink x) => x == null);
+                if (wattage_rating_exceeded)
                 {
                     ___timeOverloaded += dt;
                     if (!(___timeOverloaded > 6f))
@@ -313,15 +314,15 @@ namespace Egladil
                     ___timeOverloaded = 0f;
                     if (___targetOverloadedWire == null)
                     {
-                        if (list2 != null && list2.Count > 0)
+                        if (overloaded_bridges != null && overloaded_bridges.Count > 0)
                         {
-                            int index = Random.Range(0, list2.Count);
-                            ___targetOverloadedWire = list2[index].gameObject;
+                            int random_bridge_idx = Random.Range(0, overloaded_bridges.Count);
+                            ___targetOverloadedWire = overloaded_bridges[random_bridge_idx].gameObject;
                         }
-                        else if (list != null && list.Count > 0)
+                        else if (overloaded_wires != null && overloaded_wires.Count > 0)
                         {
-                            int index2 = Random.Range(0, list.Count);
-                            ___targetOverloadedWire = list[index2].gameObject;
+                            int random_wire_idx = Random.Range(0, overloaded_wires.Count);
+                            ___targetOverloadedWire = overloaded_wires[random_wire_idx].gameObject;
                         }
                     }
                     if (___targetOverloadedWire != null)
@@ -339,17 +340,13 @@ namespace Egladil
                     if (___overloadedNotification == null)
                     {
                         ___timeOverloadNotificationDisplayed = 0f;
-                        string title = STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.NAME;
-                        NotificationType type = NotificationType.BadMinor;
-                        HashedString invalid = HashedString.Invalid;
-                        Transform transform = ___targetOverloadedWire.transform;
-                        ___overloadedNotification = new Notification(title, type, invalid, null, null, true, 0f, null, null, transform);
+                        ___overloadedNotification = new Notification(STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.NAME, NotificationType.BadMinor, HashedString.Invalid, null, null, true, 0f, null, null, ___targetOverloadedWire.transform);
                         GameScheduler.Instance.Schedule("Power Tutorial", 2f, delegate
                         {
                             Tutorial.Instance.TutorialMessage(Tutorial.TutorialMessages.TM_Power);
                         });
                         Notifier notifier = Game.Instance.FindOrAdd<Notifier>();
-                        notifier.Add(___overloadedNotification, string.Empty);
+                        notifier.Add(___overloadedNotification);
                     }
                 }
                 else

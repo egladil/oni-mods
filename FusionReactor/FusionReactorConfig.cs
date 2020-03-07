@@ -42,6 +42,7 @@ namespace Egladil
             buildingDef.UtilityInputOffset = new CellOffset(-1, 1);
             buildingDef.OutputConduitType = ConduitType.Liquid;
             buildingDef.UtilityOutputOffset = new CellOffset(1, 0);
+            buildingDef.LogicInputPorts = LogicOperationalController.CreateSingleInputPortList(new CellOffset(0, 1));
             buildingDef.ViewMode = OverlayModes.Power.ID;
             buildingDef.AudioCategory = "HollowMetal";
             buildingDef.PermittedRotations = PermittedRotations.FlipH;
@@ -55,8 +56,6 @@ namespace Egladil
             gasInput.portInfo = secondaryInput;
             var gasOutput = go.AddComponent<ConduitSecondaryOutput>();
             gasOutput.portInfo = secondaryOutput;
-
-            GeneratedBuildings.RegisterLogicPorts(go, LogicOperationalController.INPUT_PORTS_0_1);
         }
 
         public override void DoPostConfigurePreview(BuildingDef def, GameObject go)
@@ -145,7 +144,6 @@ namespace Egladil
 
         public override void DoPostConfigureComplete(GameObject go)
         {
-            GeneratedBuildings.RegisterLogicPorts(go, LogicOperationalController.INPUT_PORTS_0_1);
             go.AddOrGet<LogicOperationalController>();
             go.AddOrGetDef<PoweredActiveController.Def>();
         }

@@ -1,6 +1,20 @@
 # Oxygen Not Included mods by egladil
 This is a set of mods for Oxygen Not Included made by me. They can be downloaded from the [steam workshop](https://steamcommunity.com/id/egladil/myworkshopfiles/?appid=457140).
 
+## 4-bit Logic
+This mod adds a few extra 4-bit automation circuits:
+* 4-bit Input Switch
+* Hex Display
+* Binary adder with carry
+* Comparator
+* Addressable memory
+
+Potential future additions:
+* Shift register
+* Other things
+
+[Workshop link](https://steamcommunity.com/sharedfiles/filedetails/?id=2004623315)
+
 ## Cloning Bay
 This mod adds a building to clone critter eggs using genetic ooze and water. Genetic ooze can be produced in the Molecular Forge.
 Cloning recipes are created automatically for all base game critters and any modded critters that provide either `EGG_ID` or `EggId` in their `IEntityConfig` class.

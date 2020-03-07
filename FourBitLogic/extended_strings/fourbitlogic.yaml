@@ -1,0 +1,69 @@
+STRINGS:
+  BUILDINGS:
+    PREFABS:
+      LOGIC4BITADDER:
+        NAME: '4-bit Adder'
+        EFFECT: 'Adds two four-bit numbers together'
+        DESC: 'Outputs the four bit sum of the two inputs. The sum is increased by one if Carry In is <b><color=#57b95e>active</b></color>. The fifth bit of the sum is output to Carry Out.'
+      LOGIC4BITCOMPARATOR:
+        NAME: '4-bit Comparator'
+        EFFECT: 'Compares two four-bit numbers'
+        DESC: 'Sends a high signal indicating which input was highest. If both inputs are equal, both outputs are <b><color=#f44a47>inactive</b></color>.'
+      LOGIC4BITINPUT:
+        NAME: '4-bit Switch'
+        EFFECT: 'Sends the selected number as a 4-bit binary value to its output'
+        DESC: 'Pick a number, any number!'
+      LOGIC4BITOUTPUT:
+        NAME: '4-bit Display'
+        EFFECT: 'Shows the 4-bit binary value on its input as a hexadecimal digit'
+        DESC: 'This one goes to 0xf'
+      LOGIC4BITMEMORY:
+        NAME: '4-bit Addressable Memory'
+        EFFECT: 'Stores up to 256 different 4-bit values'
+        DESC: |-
+          While Read Enable is <b><color=#57b95e>active</b></color> the value at the specified address is output to Data.
+          
+          On the rising edge when Write Enable goes from <b><color=#f44a47>inactive</b></color> to <b><color=#57b95e>active</b></color> the value on Data is stored at the specified address.
+          
+          The address is made using Address A for the four lower bits and Address B for the four upper bits.
+  UI:
+    LOGIC_PORTS:
+      CARRY_IN_NAME: 'Carry In'
+      CARRY_IN_ACTIVE: 'Carry In Active'
+      CARRY_IN_INACTIVE: 'Carry In Inactive'
+      
+      CARRY_OUT_NAME: 'Carry Out'
+      CARRY_OUT_ACTIVE: 'Result is 16 or more'
+      CARRY_OUT_INACTIVE: 'Result is less than 16'
+      
+      GREATER_THAN_NAME: 'Greater Than'
+      GREATER_THAN_ACTIVE: 'A is greater than B'
+      GREATER_THAN_INACTIVE: 'A is not greater than B'
+
+      LESS_THAN_NAME: 'Less Than'
+      LESS_THAN_ACTIVE: 'A is less than B'
+      LESS_THAN_INACTIVE: 'A is not less than B'
+
+      READ_NAME: 'Read Enable'
+      READ_ACTIVE: 'Read from memory'
+      READ_INACTIVE: 'Do not read from memory'
+      
+      WRITE_NAME: 'Write Enable'
+      WRITE_ACTIVE: 'Write to memory'
+      WRITE_INACTIVE: 'Do not write to memory'
+      
+      DATA_NAME: 'Bi-directional Data'
+      DATA_ACTIVE: 'Data Active'
+      DATA_INACTIVE: 'Data Inactive'
+      
+      ADDRESS_1_NAME: 'Address A'
+      ADDRESS_1_ACTIVE: 'Address Active'
+      ADDRESS_1_INACTIVE: 'Address Inactive'
+      
+      ADDRESS_2_NAME: 'Address B'
+      ADDRESS_2_ACTIVE: 'Address Active'
+      ADDRESS_2_INACTIVE: 'Address Inactive'
+    UISIDESCREENS:
+      LOGIC_4BIT_INPUT_SIDE_SCREEN:
+        TITLE: 'Value'
+        TOOLTIP: 'Will send {0} as a 4-bit binary value'

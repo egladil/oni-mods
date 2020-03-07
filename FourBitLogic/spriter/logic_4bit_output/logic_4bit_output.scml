@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="background_0.png" width="116" height="116" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="place_0.png" width="116" height="116" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="ui_0.png" width="140" height="115" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="digit_0.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="digit_1.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="digit_2.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="digit_3.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="digit_4.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="digit_5.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="digit_6.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="digit_7.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="digit_8.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="digit_9.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="digit_10.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="digit_11.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="digit_12.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="16" name="digit_13.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="17" name="digit_14.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="18" name="digit_15.png" width="54" height="54" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="logic_4bit_output">
+        <animation id="0" name="place" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="place">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="ui" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="ui">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="-70" y="104" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="off" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="on_0" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="on_1" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="on_2" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="6" name="on_3" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="7" name="on_4" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="8" name="on_5" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="9" name="on_6" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="10" name="on_7" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="11" name="on_8" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="11" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="12" name="on_9" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="13" name="on_10" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="13" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="14" name="on_11" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="14" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="15" name="on_12" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="15" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="16" name="on_13" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="16" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="17" name="on_14" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="17" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="18" name="on_15" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="background">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-58" y="108" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="digit_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="18" x="-31" y="73" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

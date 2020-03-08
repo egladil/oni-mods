@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigawattWire", "GigawattWir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourBitLogic", "FourBitLogic\FourBitLogic.csproj", "{EEF12D87-1CC2-40FC-9B70-4A355A207401}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboSensors", "ComboSensors\ComboSensors.csproj", "{3317DD38-93DF-45A9-BD49-308BAF5E0ABE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{EEF12D87-1CC2-40FC-9B70-4A355A207401}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEF12D87-1CC2-40FC-9B70-4A355A207401}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEF12D87-1CC2-40FC-9B70-4A355A207401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3317DD38-93DF-45A9-BD49-308BAF5E0ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3317DD38-93DF-45A9-BD49-308BAF5E0ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3317DD38-93DF-45A9-BD49-308BAF5E0ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3317DD38-93DF-45A9-BD49-308BAF5E0ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

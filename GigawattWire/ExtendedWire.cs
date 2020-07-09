@@ -137,9 +137,10 @@ namespace Egladil
                         CircuitManager circuitManager2 = Game.Instance.circuitManager;
                         ushort circuitID2 = circuitManager2.GetCircuitID(cell2);
                         float wattsUsedByCircuit = circuitManager2.GetWattsUsedByCircuit(circuitID2);
+                        float potentialWattByCircuit = circuitManager2.GetPotentialWattsGeneratedByCircuit(circuitID2);
                         GameUtil.WattageFormatterUnit unit2 = wire2.MaxWattageRating.GetFormatterUnit();
                         float maxWattageAsFloat2 = Wire.GetMaxWattageAsFloat(wire2.MaxWattageRating);
-                        string wireLoadColor = GameUtil.GetWireLoadColor(wattsUsedByCircuit, maxWattageAsFloat2);
+                        string wireLoadColor = GameUtil.GetWireLoadColor(wattsUsedByCircuit, maxWattageAsFloat2,potentialWattByCircuit);
                         str = str.Replace("{CurrentLoadAndColor}", (!(wireLoadColor == Color.white.ToHexString())) ? ("<color=#" + wireLoadColor + ">" + GameUtil.GetFormattedWattage(wattsUsedByCircuit, unit2) + "</color>") : GameUtil.GetFormattedWattage(wattsUsedByCircuit, unit2));
                         str = str.Replace("{MaxLoad}", GameUtil.GetFormattedWattage(maxWattageAsFloat2, unit2));
                         str = str.Replace("{WireType}", __instance.GetProperName());

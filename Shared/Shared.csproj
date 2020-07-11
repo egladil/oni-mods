@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="Buildings.cs" />
     <Compile Include="Gui.cs" />
+    <Compile Include="ColorLoader.cs" />
     <Compile Include="Serialization.cs" />
     <Compile Include="RequireConduitInput.cs" />
     <Compile Include="ConduitInput.cs" />

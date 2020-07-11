@@ -84,6 +84,7 @@ $(ILMergeConsolePath) /out:$(TargetName)-merged.dll $(TargetName).dll Shared.dll
 echo F | xcopy /Y /S /R /Q "$(TargetDir)$(TargetName)-merged.dll" "$(SolutionDir)Mods\$(TargetName)\$(TargetName).dll"
 echo F | xcopy /Y /S /R /Q "$(ProjectDir)mod.yaml" "$(SolutionDir)Mods\$(TargetName)\mod.yaml"
 if exist "$(ProjectDir)anim" xcopy /Y /R /I /E /Q  "$(ProjectDir)anim" "$(SolutionDir)Mods\$(TargetName)\anim"
+if exist "$(ProjectDir)named_colors" xcopy /Y /R /I /E /Q  "$(ProjectDir)named_colors" "$(SolutionDir)Mods\$(TargetName)\named_colors"
 if exist "$(ProjectDir)elements" xcopy /Y /R /I /E /Q  "$(ProjectDir)elements" "$(SolutionDir)Mods\$(TargetName)\elements"
 if exist "$(ProjectDir)extended_elements" xcopy /Y /R /I /E /Q  "$(ProjectDir)extended_elements" "$(SolutionDir)Mods\$(TargetName)\extended_elements"
 if exist "$(ProjectDir)extended_strings" xcopy /Y /R /I /E /Q  "$(ProjectDir)extended_strings" "$(SolutionDir)Mods\$(TargetName)\extended_strings"

@@ -25,7 +25,7 @@ namespace Egladil
         {
             Assets.instance.DiseaseVisualization.info.Add(new DiseaseVisualization.Info(ID)
             {
-                overlayColour = Color.cyan,
+                overlayColourName = "germRadiation",
             });
         }
 

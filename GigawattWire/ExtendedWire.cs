@@ -139,8 +139,9 @@ namespace Egladil
                         float wattsUsedByCircuit = circuitManager2.GetWattsUsedByCircuit(circuitID2);
                         GameUtil.WattageFormatterUnit unit2 = wire2.MaxWattageRating.GetFormatterUnit();
                         float maxWattageAsFloat2 = Wire.GetMaxWattageAsFloat(wire2.MaxWattageRating);
-                        string wireLoadColor = GameUtil.GetWireLoadColor(wattsUsedByCircuit, maxWattageAsFloat2);
-                        str = str.Replace("{CurrentLoadAndColor}", (!(wireLoadColor == Color.white.ToHexString())) ? ("<color=#" + wireLoadColor + ">" + GameUtil.GetFormattedWattage(wattsUsedByCircuit, unit2) + "</color>") : GameUtil.GetFormattedWattage(wattsUsedByCircuit, unit2));
+                        float wattsNeededWhenActive2 = circuitManager2.GetWattsNeededWhenActive(circuitID2);
+                        string wireLoadColor = GameUtil.GetWireLoadColor(wattsUsedByCircuit, maxWattageAsFloat2, wattsNeededWhenActive2);
+                        str = str.Replace("{CurrentLoadAndColor}", (wireLoadColor == Color.white.ToHexString()) ? GameUtil.GetFormattedWattage(wattsUsedByCircuit, unit2) : ("<color=#" + wireLoadColor + ">" + GameUtil.GetFormattedWattage(wattsUsedByCircuit, unit2) + "</color>"));
                         str = str.Replace("{MaxLoad}", GameUtil.GetFormattedWattage(maxWattageAsFloat2, unit2));
                         str = str.Replace("{WireType}", __instance.GetProperName());
                         return str;
@@ -157,7 +158,7 @@ namespace Egladil
                         ushort circuitID = circuitManager.GetCircuitID(cell);
                         float wattsNeededWhenActive = circuitManager.GetWattsNeededWhenActive(circuitID);
                         float maxWattageAsFloat = Wire.GetMaxWattageAsFloat(wire.MaxWattageRating);
-                        str = str.Replace("{TotalPotentialLoadAndColor}", (!(wattsNeededWhenActive > maxWattageAsFloat)) ? GameUtil.GetFormattedWattage(wattsNeededWhenActive, unit) : ("<color=#" + new Color(251f / 255f, 176f / 255f, 59f / 255f).ToHexString() + ">" + GameUtil.GetFormattedWattage(wattsNeededWhenActive, unit) + "</color>"));
+                        str = str.Replace("{TotalPotentialLoadAndColor}", (wattsNeededWhenActive > maxWattageAsFloat) ? ("<color=#" + new Color(251f / 255f, 176f / 255f, 59f / 255f).ToHexString() + ">" + GameUtil.GetFormattedWattage(wattsNeededWhenActive, unit) + "</color>") : GameUtil.GetFormattedWattage(wattsNeededWhenActive, unit));
                         str = str.Replace("{MaxLoad}", GameUtil.GetFormattedWattage(maxWattageAsFloat, unit));
                         return str;
                     });
